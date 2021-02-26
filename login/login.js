@@ -26,7 +26,7 @@ function login() {
 
     $.ajax({
 
-               url: "http://escolarapp2.herokuapp.com/account/login/",
+               url: "https://escolarapp2.herokuapp.com/account/login/",
         contentType: 'application/json',
         cache: false,
         method: 'POST',

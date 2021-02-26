@@ -33,7 +33,7 @@ function criarUsuario(objetoEmail, objetoPassword1) {
     var usuario = JSON.stringify({ email: objetoEmail, password: objetoPassword1 })
 
     $.ajax({
-        url: "http://escolarapp2.herokuapp.com/account/register/",
+        url: "https://escolarapp2.herokuapp.com/account/register/",
         contentType: 'application/json',
         cache: false,
         method: 'POST',
