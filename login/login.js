@@ -41,7 +41,7 @@ function login() {
             window.localStorage.setItem("Token", key);
 
 
-           window.location.href = "../INTERACAOHTML/cadastro/cadastro.html"
+           window.location.href = "/cadastro/cadastro.html"
 
         },
         error: function (error) {
